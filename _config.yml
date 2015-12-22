@@ -1,11 +1,11 @@
 # Site settings
-title: What's up lately
+title: Will Dos Santos
 email: vaticanwilliam@gmail.com
 description: I try to be a simple person with simple taste; but sometime times life forces you to get complex.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: malibuwill1024
+github_username:  WillDosSantos
 
 # Build settings
 markdown: kramdown
