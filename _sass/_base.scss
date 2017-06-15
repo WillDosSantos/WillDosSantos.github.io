@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -171,6 +172,42 @@ pre {
 }
 
 
+.p-1 {
+  padding: 1em;
+}
+
+.p-1r {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2em;
+}
+
+.p-2r {
+  padding: 2rem;
+}
+
+.px-1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.px-1r {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-2 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.px-2r {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 
 /**
  * Clearfix
@@ -201,4 +238,12 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Utilities
+ */
+
+.d-f {
+  display: flex;
 }
