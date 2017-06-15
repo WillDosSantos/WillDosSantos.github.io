@@ -11,9 +11,13 @@
       <div class="sidebar">
         <div class="profile-container"></div>
         <ul class="sidebar-nav">
-          <li>Case Studies</li>
-          <li>Current Projects</li>
-          <li>Blog</li>
+          {% for page in site.pages %}
+            {% if page.title %}
+            <li>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
       <div class="p-1">

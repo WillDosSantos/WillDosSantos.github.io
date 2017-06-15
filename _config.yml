@@ -1,6 +1,6 @@
 # Site settings
-title: Will Dos Santos
-email: vaticanwilliam@gmail.com
+title: mocking.design
+email: mockingdesign@gmail.com
 description: I try to be a simple person with simple taste; but sometime times life forces you to get complex.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
