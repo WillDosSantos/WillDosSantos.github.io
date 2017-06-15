@@ -304,6 +304,8 @@ pre {
   .sidebar-nav li {
     padding: 1em;
     font-size: 13px; }
+    .sidebar-nav li a {
+      color: #fff; }
 
 .page-heading {
   font-size: 20px; }
