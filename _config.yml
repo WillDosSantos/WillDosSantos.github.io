@@ -1,7 +1,7 @@
 # Site settings
 title: mocking.design
 email: mockingdesign@gmail.com
-description: I try to be a simple person with simple taste; but sometime times life forces you to get complex.
+description: This is a descrip.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: malibuwill1024

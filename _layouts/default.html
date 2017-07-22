@@ -8,8 +8,12 @@
     {% include header.html %}
 
     <div class="page-content d-f">
-      <div class="sidebar">
-        <div class="profile-container"></div>
+      <div class="sidebar w-20">
+        <div class="profile-container">
+          <div class="profile-avatar"></div>
+          <h4>William dos Santos</h4>
+          <h6>UI &amp; Motion Designer</h6>
+        </div>
         <ul class="sidebar-nav">
           {% for page in site.pages %}
             {% if page.title %}
@@ -20,7 +24,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="p-1">
+      <div class="p-1 w-80 content-wrapper">
         {{ content }}
       </div>
     </div>

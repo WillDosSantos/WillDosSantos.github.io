@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Will Dos Santos</title>
-    <description>I try to be a simple person with simple taste; but sometime times life forces you to get complex.</description>
+    <title>mocking.design</title>
+    <description>This is a descrip.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Jun 2017 00:06:50 -0700</pubDate>
-    <lastBuildDate>Thu, 15 Jun 2017 00:06:50 -0700</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Fri, 21 Jul 2017 20:08:15 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Jul 2017 20:08:15 -0700</lastBuildDate>
+    <generator>Jekyll v3.4.5</generator>
     
       <item>
-        <title>A New Chapter</title>
-        <description>&lt;p&gt;This is my first blog entry. Hello everyone who happens to read this. I find that there is so much going on in the world now, that posting on facebook, instagram, or whatever else, to be a little ridiculous. Social media seems to be causing more disharmony than unification these days.&lt;/p&gt;
+        <title>Another Post</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
+Another Post is here&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Jul 2017 05:39:12 -0700</pubDate>
+        <link>http://localhost:4000/thoughts/2017/07/20/another-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/thoughts/2017/07/20/another-post.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>What's Next</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
+This is my first blog entry. Hello everyone who happens to read this. I find that there is so much going on in the world now, that posting on facebook, instagram, or whatever else, to be a little ridiculous. Social media seems to be causing more disharmony than unification these days.&lt;/p&gt;
 
 &lt;p&gt;But enough about that, the majority of my site will be mostly about design related topics, ideas, or anything that just sparks creativity. My goal is not to convince people of anything, but just sharing my thoughts in a constructive and scientific format; almost like an experiment for different connections in life.&lt;/p&gt;
 

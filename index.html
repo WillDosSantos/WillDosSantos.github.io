@@ -4,13 +4,15 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts Foo</h1>
+  <h1 class="page-heading">Current Work</h1>
 
-  <ul class="post-list">
+  <ul class="post-list d-f">
     {% for post in site.posts %}
-      <li>
+      <li class="post-thumbnail-container">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/images/{{ post.featured_image }}">
+        </div>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
