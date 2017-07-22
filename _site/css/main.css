@@ -186,6 +186,9 @@ pre {
 .w-20 {
   width: 20%; }
 
+.m-0 {
+  margin: 0; }
+
 /**
  * Site header
  */
@@ -334,7 +337,7 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 18px; }
 
 /**
  * Posts
@@ -508,17 +511,16 @@ pre {
     color: #099; }
 
 .img-container {
-  max-width: 290px;
-  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  position: relative;
-  width: 100%; }
+  width: 225px;
+  height: 170px; }
   .img-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    border: 0; }
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; }
 
 .post-thumbnail-container {
   background-color: #fff;

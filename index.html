@@ -8,18 +8,18 @@ layout: default
 
   <ul class="post-list d-f">
     {% for post in site.posts %}
-      <li class="post-thumbnail-container">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/images/{{ post.featured_image }}">
-        </div>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <a class="post-thumbnail-container" href="{{ post.url | prepend: site.baseurl }}">
+        <li>
+          <div class="img-container">
+            <img src="{{ site.baseurl }}/assets/images/{{ post.featured_image }}">
+          </div>
+          <h4 class="m-0">
+            {{ post.title }}
+          </h4>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      </a>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

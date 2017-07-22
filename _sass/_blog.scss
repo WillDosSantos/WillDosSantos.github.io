@@ -1,15 +1,14 @@
 .img-container {
-  max-width: 290px;
-  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  position: relative;
-  width: 100%;
+  width: 225px;
+  height: 170px;
   img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    border: 0;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
