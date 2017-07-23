@@ -236,9 +236,15 @@ pre {
     color: #326CD0;
     font-weight: bold;
     font-size: 13px;
-    line-height: 1.5; }
+    line-height: 1.5;
+    display: flex;
+    align-items: center; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
+    .site-nav .page-link .icon {
+      width: 13px;
+      fill: #4D89E7;
+      margin-right: 5px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;

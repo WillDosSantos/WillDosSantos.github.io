@@ -39,9 +39,16 @@
         font-weight: bold;
         font-size: 13px;
         line-height: $base-line-height;
+        display: flex;
+        align-items: center;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+        .icon {
+          width: 13px;
+          fill: #4D89E7;
+          margin-right: 5px;
         }
     }
 
