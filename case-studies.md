@@ -2,6 +2,7 @@
 layout: page
 title: Case Studies
 permalink: /case-studies/
+icon: current-works.svg
 ---
 
 Hello Case Studies!

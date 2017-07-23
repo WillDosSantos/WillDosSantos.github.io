@@ -2,6 +2,7 @@
 layout: page
 title: Current Projects
 permalink: /current-projects/
+icon: projects.svg
 ---
 
 Hello Current Projects!
