@@ -383,7 +383,8 @@ pre {
   justify-content: center;
   margin-left: 20%;
   position: relative;
-  top: 58px; }
+  top: 58px;
+  min-height: calc(100vh - 58px); }
   .content-wrapper .post {
     background-color: #fff;
     padding: 2em;
