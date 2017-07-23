@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Yarn Game Design"
+date:   2017-07-20 12:39:12
+categories: games
+featured_image: yarn.jpg
+---
+
+![image-title-here](/assets/images/yarn.jpg){:class="img-responsive"}
+Another Post is here

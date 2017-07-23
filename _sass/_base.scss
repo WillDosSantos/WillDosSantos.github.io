@@ -3,7 +3,7 @@
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, a {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -230,12 +230,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 25px;
+        height: 25px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: #fff;
         }
     }
 }
@@ -246,6 +246,10 @@ pre {
 
 .d-f {
   display: flex;
+}
+
+.ai-c {
+  align-items: center;
 }
 
 .w-100{

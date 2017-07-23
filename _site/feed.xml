@@ -5,21 +5,21 @@
     <description>This is a descrip.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Jul 2017 21:43:09 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Jul 2017 21:43:09 -0700</lastBuildDate>
+    <pubDate>Sat, 22 Jul 2017 18:34:02 -0700</pubDate>
+    <lastBuildDate>Sat, 22 Jul 2017 18:34:02 -0700</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
-        <title>Another Post</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
+        <title>Yarn Game Design</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/yarn.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
 Another Post is here&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Jul 2017 05:39:12 -0700</pubDate>
-        <link>http://localhost:4000/thoughts/2017/07/20/another-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/thoughts/2017/07/20/another-post.html</guid>
+        <link>http://localhost:4000/games/2017/07/20/yarn.html</link>
+        <guid isPermaLink="true">http://localhost:4000/games/2017/07/20/yarn.html</guid>
         
         
-        <category>thoughts</category>
+        <category>games</category>
         
       </item>
     

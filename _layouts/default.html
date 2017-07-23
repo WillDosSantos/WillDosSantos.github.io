@@ -10,11 +10,13 @@
     <div class="page-content d-f">
       <div class="sidebar w-20">
         <div class="profile-container">
-          <div class="profile-avatar"></div>
-          <h4>William dos Santos</h4>
-          <h6>UI &amp; Motion Designer</h6>
+          <div class="profile-avatar">
+            <img src="/assets/images/profile-pic.png"/>
+          </div>
+          <h3>William dos Santos</h3>
+          <h5>UI &amp; Motion Designer</h5>
         </div>
-        <ul class="sidebar-nav">
+        <ul class="sidebar-nav mt-1">
           {% for page in site.pages %}
             {% if page.title %}
             <li>
@@ -23,13 +25,12 @@
             {% endif %}
           {% endfor %}
         </ul>
+        {% include footer.html %}
       </div>
       <div class="p-1 w-80 content-wrapper">
         {{ content }}
       </div>
     </div>
-
-    {% include footer.html %}
 
   </body>
 
