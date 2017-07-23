@@ -5,8 +5,8 @@
     <description>This is a descrip.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Jul 2017 15:32:27 -0700</pubDate>
-    <lastBuildDate>Sun, 23 Jul 2017 15:32:27 -0700</lastBuildDate>
+    <pubDate>Sun, 23 Jul 2017 15:42:43 -0700</pubDate>
+    <lastBuildDate>Sun, 23 Jul 2017 15:42:43 -0700</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -74,6 +74,26 @@ This is my first blog entry. Hello everyone who happens to read this. I find tha
         
         
         <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Branding My Planning Center</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/my-planning-center.gif&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
+This is my first blog entry. Hello everyone who happens to read this. I find that there is so much going on in the world now, that posting on facebook, instagram, or whatever else, to be a little ridiculous. Social media seems to be causing more disharmony than unification these days.&lt;/p&gt;
+
+&lt;p&gt;But enough about that, the majority of my site will be mostly about design related topics, ideas, or anything that just sparks creativity. My goal is not to convince people of anything, but just sharing my thoughts in a constructive and scientific format; almost like an experiment for different connections in life.&lt;/p&gt;
+
+&lt;p&gt;I will try to implement Disqus into my blog, or implement comments of sometype.&lt;/p&gt;
+
+&lt;p&gt;This should be an interesting venture.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Sep 2016 12:39:12 -0700</pubDate>
+        <link>http://localhost:4000/branding/2016/09/14/my-planning-center.html</link>
+        <guid isPermaLink="true">http://localhost:4000/branding/2016/09/14/my-planning-center.html</guid>
+        
+        
+        <category>branding</category>
         
       </item>
     
