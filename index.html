@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home w-100">
 
   <h1 class="page-heading">Current Work</h1>
 
-  <ul class="post-list d-f">
+  <ul class="post-list d-f flex-grid-4">
     {% for post in site.posts %}
-      <a class="post-thumbnail-container" href="{{ post.url | prepend: site.baseurl }}">
+      <a class="post-thumbnail-container flex-grid-4__item" href="{{ post.url | prepend: site.baseurl }}">
         <li>
           <div class="img-container">
             <img src="{{ site.baseurl }}/assets/images/{{ post.featured_image }}">

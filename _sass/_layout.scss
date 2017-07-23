@@ -170,7 +170,7 @@
 
 .sidebar {
   background-color: #4D89E7;
-  width: 30%;
+  width: 20%;
   color: #fff;
   position: fixed;
   height: calc(100vh - 58px);
@@ -228,9 +228,9 @@
 .content-wrapper {
   background-color: #EBF3FF;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin-left: 30%;
+  margin-left: 20%;
   position: relative;
   top: 58px;
   .post {
