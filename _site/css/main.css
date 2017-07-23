@@ -186,6 +186,12 @@ pre {
 .w-80 {
   width: 80%; }
 
+.w-70 {
+  width: 70%; }
+
+.w-30 {
+  width: 30%; }
+
 .w-20 {
   width: 20%; }
 
@@ -198,7 +204,12 @@ pre {
 .site-header {
   min-height: 56px;
   border-bottom: 2px solid #4D89E7;
-  position: relative; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+  background-color: #fff; }
 
 .site-title {
   font-size: 20px;
@@ -313,10 +324,11 @@ pre {
  */
 .sidebar {
   background-color: #4D89E7;
-  min-width: 230px;
+  width: 30%;
   color: #fff;
+  position: fixed;
   height: calc(100vh - 58px);
-  position: relative; }
+  top: 58px; }
   .sidebar .site-footer {
     position: absolute;
     bottom: 0px;
@@ -359,7 +371,10 @@ pre {
   background-color: #EBF3FF;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: 30%;
+  position: relative;
+  top: 58px; }
   .content-wrapper .post {
     background-color: #fff;
     padding: 2em;

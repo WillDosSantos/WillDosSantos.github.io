@@ -4,9 +4,12 @@
 .site-header {
     min-height: 56px;
     border-bottom: 2px solid #4D89E7;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    background-color: #fff;
 }
 
 .site-title {
@@ -167,16 +170,18 @@
 
 .sidebar {
   background-color: #4D89E7;
-  min-width: 230px;
+  width: 30%;
   color: #fff;
+  position: fixed;
   height: calc(100vh - 58px);
-  position: relative;
+  top: 58px;
   .site-footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
   }
 }
+
 
 .sidebar-nav {
   list-style: none;
@@ -195,6 +200,7 @@
     }
   }
 }
+
 
 .profile-container {
   display: flex;
@@ -224,6 +230,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 30%;
+  position: relative;
+  top: 58px;
   .post {
     background-color: #fff;
     padding: 2em;
