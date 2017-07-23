@@ -180,6 +180,12 @@ pre {
 .ai-c {
   align-items: center; }
 
+.jc-sb {
+  justify-content: space-between; }
+
+.jc-fs {
+  justify-content: flex-start; }
+
 .w-100 {
   width: 100%; }
 
@@ -283,6 +289,9 @@ pre {
   list-style: none;
   margin: 0;
   padding: 1em; }
+  .contact-list .icon,
+  .social-media-list .icon {
+    margin-right: 1em; }
 
 .footer-col-wrapper {
   font-size: 15px;
@@ -383,7 +392,9 @@ pre {
     margin-top: 2em; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0.5em; }
 
 .post-list {
   margin-left: 0;
