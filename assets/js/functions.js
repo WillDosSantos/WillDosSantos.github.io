@@ -1,3 +1,10 @@
-$(function() {
-  $('.sidebar-nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
+$ = function(id) {
+  return document.getElementById(id);
+}
+
+var show = function(id) {
+	$(id).style.display ='block';
+}
+var hide = function(id) {
+	$(id).style.display ='none';
+}

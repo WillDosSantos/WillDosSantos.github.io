@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://localhost:4000/branding/2017/07/21/breaker-ministries.html">
+    <script src="/assets/js/functions.js"></script>
 </head>
 
 <style>
@@ -19,6 +20,21 @@
 
 
   <body>
+    
+
+<div class="popup" id="popup1">
+  <p>This is a popup!</p>
+  <p>Overlay uses <b>box-shadow</b>.</p>
+	<p>(Doesn't block elements on background)</p>
+  <a href="#" onclick="hide('popup1')">Ok!</a>
+</div>
+
+<div class="popup" id="popup2">
+  <p>This is a popup!</p>
+  <p>Overlay uses <b>:before</b> and <b>:after</b> pseudo-classes.</p>
+	<p>(This one does block elements on the background)</p>
+  <a href="#" onclick="hide('popup2')">Ok!</a>
+</div>
 
     <header class="site-header px-1">
 
@@ -34,9 +50,9 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-
+      
       <div class="trigger d-f ai-c">
-        <a class="page-link" href="#">
+        <a class="page-link" href="#" onclick="show('popup1')">
           <svg class="icon icon--about" viewBox="0 0 25.7 29.7">
             <path d="M15.8,16.5l4-2.6V4l-4-4H9.9l-4,4v9.9l4,2.6L0,19.8v9.9h25.7v-9.9L15.8,16.5z M9.9,5.6L11.5,4h2.7l1.6,1.6v6.1
             	l-3,2l-3-2V5.6z M21.8,25.8H4v-3.1l8.6-2.9h0.7l8.6,2.9V25.8z"/>
@@ -67,11 +83,12 @@
             <h3>William dos Santos</h3>
             <h5>UI &amp; Motion Designer</h5>
           </div>
+
           <ul class="sidebar-nav mt-1">
             <li>
               <a class="page-link" href="/">
                 <img class="sidebar-icon" src="/assets/svgs/blog.svg">
-                Upcoming Work
+                My Stories
               </a>
             </li>
             
@@ -105,10 +122,10 @@
   <div class="">
     <div class="footer-col-wrapper">
       <div>
-        <ul class="social-media-list d-f ai-c jc-fs">
+        <ul class="social-media-list d-f ai-c jc-sa">
           
           <li>
-            <a href="https://github.com/WillDosSantos">
+            <a href="https://github.com/WillDosSantos" target="_blank">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 16 16">
                   <path fill="#FFFFFF" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
@@ -120,7 +137,7 @@
 
           
           <li>
-            <a href="https://twitter.com/malibuwill1024">
+            <a href="https://twitter.com/malibuwill1024" target="_blank">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 25 25">
                   <path fill="#fff" d="M17,0c0.2,0,0.5,0,0.7,0c0,0,0,0,0.1,0c0.2,0,0.4,0,0.5,0.1c1.1,0.2,2,0.7,2.8,1.5c0,0,0.1,0.1,0.1,0
@@ -139,7 +156,7 @@
 
           
             <li>
-              <a href="https://dribbble.com/willds">
+              <a href="https://dribbble.com/willds" target="_blank">
                 <span class="icon  icon--dribbble">
                   <svg width="18px" height="25px" viewBox="0 0 28 28">
                   <path d="M14.7,27.3c-0.7,0-1.4,0-2.1,0c-0.1,0-0.2,0-0.2-0.1c-1.3-0.1-2.5-0.4-3.7-0.9C2.2,23.7-1.2,17,0.4,10.3

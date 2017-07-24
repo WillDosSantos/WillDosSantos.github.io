@@ -5,8 +5,8 @@
     <description>This is a descrip.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Jul 2017 15:42:43 -0700</pubDate>
-    <lastBuildDate>Sun, 23 Jul 2017 15:42:43 -0700</lastBuildDate>
+    <pubDate>Sun, 23 Jul 2017 20:22:11 -0700</pubDate>
+    <lastBuildDate>Sun, 23 Jul 2017 20:22:11 -0700</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -38,19 +38,25 @@ Another Post is here&lt;/p&gt;
       </item>
     
       <item>
-        <title>Game Design</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
-This is my first blog entry. Hello everyone who happens to read this. I find that there is so much going on in the world now, that posting on facebook, instagram, or whatever else, to be a little ridiculous. Social media seems to be causing more disharmony than unification these days.&lt;/p&gt;
+        <title>Web Visions PDX 2016</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/pdx-2.jpg&quot; alt=&quot;Shane, Travis &amp;amp; Me PDX 2016&quot; class=&quot;img-responsive img-left img-50&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;But enough about that, the majority of my site will be mostly about design related topics, ideas, or anything that just sparks creativity. My goal is not to convince people of anything, but just sharing my thoughts in a constructive and scientific format; almost like an experiment for different connections in life.&lt;/p&gt;
+&lt;h1 id=&quot;welcome-to-web-visions&quot;&gt;Welcome to Web Visions&lt;/h1&gt;
+&lt;p&gt;One of the really cool things about working for a company like Planning Center, is the fact that they will give you 5 conference days and pay for you to go to any conference of your choosing.&lt;/p&gt;
 
-&lt;p&gt;I will try to implement Disqus into my blog, or implement comments of sometype.&lt;/p&gt;
+&lt;p&gt;My first conference experience set the bar high. I was privileged to experience An Event Apart in Austin in 2012. I met some really cool people and gained some knowledge during my time there.&lt;/p&gt;
 
-&lt;p&gt;This should be an interesting venture.&lt;/p&gt;
+&lt;p&gt;My most recent conference was Web Visions PDX 2016.&lt;/p&gt;
+
+&lt;p&gt;The event itself was very free flowing, and had a laid back and relaxed attitude, which was pretty helpful in terms of breaking down any social walls that people might have and getting us all to engage with one another.&lt;/p&gt;
+
+&lt;p&gt;The talks were also very well rounded and diverse. Ranging from the progression of automation with AI in all the industries, work culture diversification, and just regular good old fashioned kick ass design (I’m somewhat of a fan).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;Travis &amp;amp; Will and unknown blurred guy in Aaron Draplin's Workshop&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Dec 2016 11:39:12 -0800</pubDate>
-        <link>http://localhost:4000/thoughts/2016/12/20/game-design.html</link>
-        <guid isPermaLink="true">http://localhost:4000/thoughts/2016/12/20/game-design.html</guid>
+        <link>http://localhost:4000/thoughts/2016/12/20/web-visions-pdx.html</link>
+        <guid isPermaLink="true">http://localhost:4000/thoughts/2016/12/20/web-visions-pdx.html</guid>
         
         
         <category>thoughts</category>
@@ -94,26 +100,6 @@ This is my first blog entry. Hello everyone who happens to read this. I find tha
         
         
         <category>branding</category>
-        
-      </item>
-    
-      <item>
-        <title>What's Next</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wt.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive&quot; /&gt;
-This is my first blog entry. Hello everyone who happens to read this. I find that there is so much going on in the world now, that posting on facebook, instagram, or whatever else, to be a little ridiculous. Social media seems to be causing more disharmony than unification these days.&lt;/p&gt;
-
-&lt;p&gt;But enough about that, the majority of my site will be mostly about design related topics, ideas, or anything that just sparks creativity. My goal is not to convince people of anything, but just sharing my thoughts in a constructive and scientific format; almost like an experiment for different connections in life.&lt;/p&gt;
-
-&lt;p&gt;I will try to implement Disqus into my blog, or implement comments of sometype.&lt;/p&gt;
-
-&lt;p&gt;This should be an interesting venture.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 21 Dec 2015 11:39:12 -0800</pubDate>
-        <link>http://localhost:4000/thoughts/2015/12/21/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/thoughts/2015/12/21/welcome-to-jekyll.html</guid>
-        
-        
-        <category>thoughts</category>
         
       </item>
     
