@@ -264,8 +264,19 @@
     padding: 2em;
     border-radius: 4px;
     max-width: 800px;
-    margin-top: 2em
+    margin-top: 2em;
   }
+}
+
+.simple-content {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 4px;
+  max-width: 800px;
+  margin-top: 2em;
+  position: relative;
+  width: 100%;
+  top: 150px;
 }
 
 .page-heading {
@@ -341,44 +352,40 @@
 }
 
 /* About Test */
-.popup {
-  display: none;
-  position: fixed;
-  padding: 10px;
-  width: 280px;
-  left: 50%;
-  margin-left: -150px;
-  height: 180px;
-  top: 50%;
-  margin-top: -100px;
-  background: #FFF;
-  z-index: 20;
+.overlay-container {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(77, 137, 231, 0.95);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s ease;
+	z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.open {
+	opacity: 1;
+	visibility: visible;
 }
 
-#popup1 {
-  -webkit-box-shadow: 0px 0px 0px 9999px rgba(77, 137, 231, 0.9);
-  box-shadow: 0px 0px 0px 9999px rgba(77, 137, 231, 0.9);
+.close {
+	position: fixed;
+	top: 40px;
+	right: 60px;
+	color: white;
+	z-index: 3;
+	cursor: pointer;
+	font-family: sans-serif;
 }
-
-#popup2 {
-  &:after {
-    position: fixed;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(77, 137, 231, 0.9);
-    z-index: -2;
-  }
-  &:before {
+.outer-close {
     position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
     right: 0;
-    background: #FFF;
-    z-index: -1;
-  }
+    top: 0;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
 }

@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://localhost:4000/current-projects/">
+
+    <script src="/assets/js/jquery-3.2.1.js"></script>
     <script src="/assets/js/functions.js"></script>
 </head>
 
@@ -22,18 +24,14 @@
   <body>
     
 
-<div class="popup" id="popup1">
-  <p>This is a popup!</p>
-  <p>Overlay uses <b>box-shadow</b>.</p>
-	<p>(Doesn't block elements on background)</p>
-  <a href="#" onclick="hide('popup1')">Ok!</a>
-</div>
-
-<div class="popup" id="popup2">
-  <p>This is a popup!</p>
-  <p>Overlay uses <b>:before</b> and <b>:after</b> pseudo-classes.</p>
-	<p>(This one does block elements on the background)</p>
-  <a href="#" onclick="hide('popup2')">Ok!</a>
+<div class="overlay-container">
+  <div class="simple-content">
+    <div class="outer-close toggle-overlay">
+      <a class="close"><span>X</span></a>
+    </div>
+    <h2>A little about me</h2>
+    <p>Here is some text that would work.</p>
+  </div>
 </div>
 
     <header class="site-header px-1">
@@ -50,9 +48,9 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-      
+
       <div class="trigger d-f ai-c">
-        <a class="page-link" href="#" onclick="show('popup1')">
+        <a class="page-link toggle-overlay" href="#">
           <svg class="icon icon--about" viewBox="0 0 25.7 29.7">
             <path d="M15.8,16.5l4-2.6V4l-4-4H9.9l-4,4v9.9l4,2.6L0,19.8v9.9h25.7v-9.9L15.8,16.5z M9.9,5.6L11.5,4h2.7l1.6,1.6v6.1
             	l-3,2l-3-2V5.6z M21.8,25.8H4v-3.1l8.6-2.9h0.7l8.6,2.9V25.8z"/>
