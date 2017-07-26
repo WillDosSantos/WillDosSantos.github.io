@@ -6,9 +6,9 @@ layout: default
 
   <h1 class="page-heading">My Stories</h1>
 
-  <ul class="post-list d-f flex-grid-4">
+  <ul class="post-list d-f bp-flex-grid">
     {% for post in site.posts %}
-      <a class="post-thumbnail-container flex-grid-4__item" href="{{ post.url | prepend: site.baseurl }}">
+      <a class="post-thumbnail-container bp-flex-grid__item" href="{{ post.url | prepend: site.baseurl }}">
         <li>
           <div class="img-container">
             <img src="{{ site.baseurl }}/assets/images/{{ post.featured_image }}">
